@@ -1,6 +1,8 @@
 import React from 'react';
 import './app.scss';
 
+import ProgressBar from './ui/progress-bar/progress-bar';
+
 function App() {
   
   return (
@@ -43,10 +45,9 @@ function App() {
             <div className="descreption">
               Выиграть три игры разложив всех королей
             </div>
-            <div className="progress-bar">
-              <div className="progress-bar__load">
-              </div>
-            </div>
+            <ProgressBar 
+              progress="100"
+            />
           </div>
           <div className="task__button">
             <button className="button">Поставить рубашку</button>
@@ -60,10 +61,9 @@ function App() {
             <div className="descreption">
               Выиграть три игры разложив всех королей
             </div>
-            <div className="progress-bar">
-              <div className="progress-bar__load">
-              </div>
-            </div>
+            <ProgressBar 
+              progress="10"
+            />
           </div>
           <div className="task__button">
             <button className="button">Поставить рубашку</button>
@@ -77,10 +77,9 @@ function App() {
             <div className="descreption">
               Выиграть три игры разложив всех королей
             </div>
-            <div className="progress-bar">
-              <div className="progress-bar__load">
-              </div>
-            </div>
+            <ProgressBar 
+              progress="10"
+            />
           </div>
           <div className="task__button">
             <button className="button">Поставить рубашку</button>
@@ -88,7 +87,6 @@ function App() {
         </div>
 
       </main>
-
     </div>
   );
 }
