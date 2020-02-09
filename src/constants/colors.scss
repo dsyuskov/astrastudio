@@ -1,0 +1,16 @@
+// palette colors
+$fuscous-gray:          #4c4d49;
+$sycamore:              #94ae3f;
+$dingley:               #68733F;
+$cream:                 #fffed1;
+$gordons-green:         #080803;
+$ronchi:                #f0d555;
+
+// ProgressBar component
+$prgress-bar-border:            $cream;
+$prgress-bar-background:        $fuscous-gray;
+$prgress-bar-load:              linear-gradient($sycamore, $dingley);
+
+// Button component
+$button-border:                 $gordons-green;
+$button-background:             $ronchi;
