@@ -1,94 +1,59 @@
 import React from 'react';
 import './app.scss';
 
-import ProgressBar from './ui/progress-bar/progress-bar';
+import Task from './ui/task/task';
+import Timer from './ui/timer/timer';
 
-function App() {
-  
-  return (
-    <div className="app">
-      <header className="header">
-        <div className="timer header__timer">
-          <div className="timer__column">
-            <span className="timer__number">6</span>
-            <span className="timer__sign">дней</span>
-          </div>
-          <div className="timer__column">
-            <span className="timer__split">:</span>
-          </div>
-          <div className="timer__column">
-            <span className="timer__number">0</span>
-            <span className="timer__sign">часов</span>
-          </div>
-          <div className="timer__column">
-            <span className="timer__split">:</span>
-          </div>
-          <div className="timer__column">
-            <span className="timer__number">2</span>
-            <span className="timer__sign">минут</span>
-          </div>
-          <div className="timer__column">
-            <span className="timer__split">:</span>
-          </div>
-          <div className="timer__column">
-            <span className="timer__number">26</span>
-            <span className="timer__sign">секунд</span>
-          </div>
-        </div>
-      </header>
-      <main className="main">
-        <div className="task">
-          <div className="task__avatar">
-            <img className="avatar" src={require("./assets/task-time.png")} alt="avatar"/>
-          </div>
-          <div className="task__descreption">
-            <div className="descreption">
-              Выиграть три игры разложив всех королей
-            </div>
-            <ProgressBar 
-              progress="100"
-            />
-          </div>
-          <div className="task__button">
-            <button className="button">Поставить рубашку</button>
-          </div>
-        </div>
-        <div className="task">
-          <div className="task__avatar">
-            <img className="avatar" src={require("./assets/task-time.png")} alt="avatar"/>
-          </div>
-          <div className="task__descreption">
-            <div className="descreption">
-              Выиграть три игры разложив всех королей
-            </div>
-            <ProgressBar 
-              progress="10"
-            />
-          </div>
-          <div className="task__button">
-            <button className="button">Поставить рубашку</button>
-          </div>
-        </div>
-        <div className="task">
-          <div className="task__avatar">
-            <img className="avatar" src={require("./assets/task-time.png")} alt="avatar"/>
-          </div>
-          <div className="task__descreption">
-            <div className="descreption">
-              Выиграть три игры разложив всех королей
-            </div>
-            <ProgressBar 
-              progress="10"
-            />
-          </div>
-          <div className="task__button">
-            <button className="button">Поставить рубашку</button>
-          </div>
-        </div>
+const arr = [
+  {
+      "type": "time",
+      "progress": 30
+  },
+  {
+      "type": "tournaments",
+      "progress": 100
+  },
+  {
+      "type": "kings",
+      "progress": 60
+  },
+  {
+    "type": "kings",
+    "progress": 60
+  }
+];
 
-      </main>
-    </div>
-  );
+export default class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      showShirt: false
+    }
+  }
+
+  showShirt = () => {
+    this.setState({showShirt: true});
+  }
+
+  render() {
+    const { showShirt } = this.state;
+    if ( showShirt ) return <div className="app"></div>;
+
+    return (
+      <div className="app">
+        <header className="header">
+          <Timer />
+        </header>
+        <main className="main">
+          {arr.slice(0, 3).map(task => {
+            return <Task
+            type = { task.type }
+            progress = { task.progress }
+            onButtonClick = { this.showShirt }
+          />
+          })}
+        </main>
+      </div>
+    );
+  }
 }
-
-export default App;
