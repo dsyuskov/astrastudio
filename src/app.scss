@@ -1,10 +1,10 @@
 @import './constants/colors.scss';
+
 html {
   font-size: 10px;
 }
 
 body {
-  padding: 0;
   margin: 0;
   position: relative;
   background: url("./assets/side-bg.jpg") center center no-repeat;
@@ -16,12 +16,12 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 1062px;
+  width: 106.2rem;
   height: 100vh;
   background: url("./assets/background-screen.png") no-repeat center;
   background-size: 100% 100%;
 
-  @media (max-width: 1062px) {
+  @media (max-width: 106.2rem) {
     width: 100%;
     background-size: 100vw 100vh;
   }
@@ -32,9 +32,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  top: 15px;
+  top: 1.5rem;
   width: 100%;
-  height: 210px;
+  height: 21rem;
   z-index: 2;
   background: url("./assets/header.png") no-repeat 55%;
   background-size: contain;
@@ -43,18 +43,19 @@ body {
 .main {
   position: relative;
   box-sizing: border-box;
-  padding-top: 55px;
-  padding-bottom: 60px;
-  padding-left: 55px;
-  padding-right: 35px;
-  width: 77%;
+  padding-top: 5.5rem;
+  padding-bottom: 6rem;
+  padding-left: 5.5rem;
+  padding-right: 3.5rem;
+  width: 80%;
+  min-height: 53rem;
   margin-left: auto;
   margin-right: auto;
-  top: 18%;
+  top: 20%;
   background: url("./assets/background.png") no-repeat center center;
   background-size: 100% 100%;
 
-  @media (max-width: 1062px) {
+  @media (max-width: 106.2rem) {
     width: 100%;
   }
 }

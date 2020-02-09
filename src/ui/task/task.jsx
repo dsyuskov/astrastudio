@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './task.scss';
-
 import ProgressBar from '../progress-bar/progress-bar';
 
 export default function Task(props) {
