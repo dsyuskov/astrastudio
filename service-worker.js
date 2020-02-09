@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/astrastudio/precache-manifest.46aedda59f45d0ca4c346483b4cc50a7.js"
+  "/astrastudio/precache-manifest.378b478a30ae0fa2695046272db90009.js"
 );
 
 self.addEventListener('message', (event) => {

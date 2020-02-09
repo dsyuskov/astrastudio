@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "890c95f801485bd979f338997603890b",
+    "revision": "6546b28ca1053c76fb6b078898659f9f",
     "url": "/astrastudio/index.html"
   },
   {
-    "revision": "e83965781c912757b1c8",
+    "revision": "b50d649d5f2801a36c14",
     "url": "/astrastudio/static/css/main.f90b054f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/astrastudio/static/js/2.1d366fd9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e83965781c912757b1c8",
-    "url": "/astrastudio/static/js/main.2dbabae0.chunk.js"
+    "revision": "b50d649d5f2801a36c14",
+    "url": "/astrastudio/static/js/main.9aaa1dc3.chunk.js"
   },
   {
     "revision": "9ec8fc5d4ca3ff2df5cb",

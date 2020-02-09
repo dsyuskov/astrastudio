@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/astrastudio/static/css/main.f90b054f.chunk.css",
-    "main.js": "/astrastudio/static/js/main.2dbabae0.chunk.js",
-    "main.js.map": "/astrastudio/static/js/main.2dbabae0.chunk.js.map",
+    "main.js": "/astrastudio/static/js/main.9aaa1dc3.chunk.js",
+    "main.js.map": "/astrastudio/static/js/main.9aaa1dc3.chunk.js.map",
     "runtime-main.js": "/astrastudio/static/js/runtime-main.09b277dd.js",
     "runtime-main.js.map": "/astrastudio/static/js/runtime-main.09b277dd.js.map",
     "static/js/2.1d366fd9.chunk.js": "/astrastudio/static/js/2.1d366fd9.chunk.js",
     "static/js/2.1d366fd9.chunk.js.map": "/astrastudio/static/js/2.1d366fd9.chunk.js.map",
     "index.html": "/astrastudio/index.html",
-    "precache-manifest.46aedda59f45d0ca4c346483b4cc50a7.js": "/astrastudio/precache-manifest.46aedda59f45d0ca4c346483b4cc50a7.js",
+    "precache-manifest.378b478a30ae0fa2695046272db90009.js": "/astrastudio/precache-manifest.378b478a30ae0fa2695046272db90009.js",
     "service-worker.js": "/astrastudio/service-worker.js",
     "static/css/main.f90b054f.chunk.css.map": "/astrastudio/static/css/main.f90b054f.chunk.css.map",
     "static/js/2.1d366fd9.chunk.js.LICENSE.txt": "/astrastudio/static/js/2.1d366fd9.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.09b277dd.js",
     "static/js/2.1d366fd9.chunk.js",
     "static/css/main.f90b054f.chunk.css",
-    "static/js/main.2dbabae0.chunk.js"
+    "static/js/main.9aaa1dc3.chunk.js"
   ]
 }
