@@ -22,7 +22,7 @@ export default class App extends React.Component {
 
   componentDidMount() {
     this.setState({onLoad: true});
-    fetch("http://sol-tst.herokuapp.com/api/v1/tasks/")
+    fetch("https://sol-tst.herokuapp.com/api/v1/tasks/")
       .then(response => {
         if (!response.ok) {
           this.setState({onLoad: false, onError: true });

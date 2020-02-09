@@ -16,12 +16,12 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 106.2rem;
+  width: 1062px;
   height: 100vh;
   background: url("./assets/background-screen.png") no-repeat center;
   background-size: 100% 100%;
 
-  @media (max-width: 106.2rem) {
+  @media (max-width: 1062px) {
     width: 100%;
     background-size: 100vw 100vh;
   }
@@ -55,7 +55,7 @@ body {
   background: url("./assets/background.png") no-repeat center center;
   background-size: 100% 100%;
 
-  @media (max-width: 106.2rem) {
+  @media (max-width: 1062px) {
     width: 100%;
   }
 }
