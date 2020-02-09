@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/astrastudio/static/css/main.0c50c52b.chunk.css",
+    "main.js": "/astrastudio/static/js/main.2dbabae0.chunk.js",
+    "main.js.map": "/astrastudio/static/js/main.2dbabae0.chunk.js.map",
+    "runtime-main.js": "/astrastudio/static/js/runtime-main.09b277dd.js",
+    "runtime-main.js.map": "/astrastudio/static/js/runtime-main.09b277dd.js.map",
+    "static/js/2.1d366fd9.chunk.js": "/astrastudio/static/js/2.1d366fd9.chunk.js",
+    "static/js/2.1d366fd9.chunk.js.map": "/astrastudio/static/js/2.1d366fd9.chunk.js.map",
+    "index.html": "/astrastudio/index.html",
+    "precache-manifest.7d0f4427018c08da66215dc7d874c8e7.js": "/astrastudio/precache-manifest.7d0f4427018c08da66215dc7d874c8e7.js",
+    "service-worker.js": "/astrastudio/service-worker.js",
+    "static/css/main.0c50c52b.chunk.css.map": "/astrastudio/static/css/main.0c50c52b.chunk.css.map",
+    "static/js/2.1d366fd9.chunk.js.LICENSE.txt": "/astrastudio/static/js/2.1d366fd9.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/astrastudio/static/media/side-bg.324c7fbc.jpg",
+    "static/media/task-kings.png": "/astrastudio/static/media/task-kings.159c96d7.png",
+    "static/media/task-time.png": "/astrastudio/static/media/task-time.94ef6c8d.png",
+    "static/media/task-tournaments.png": "/astrastudio/static/media/task-tournaments.935c7e99.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b277dd.js",
+    "static/js/2.1d366fd9.chunk.js",
+    "static/css/main.0c50c52b.chunk.css",
+    "static/js/main.2dbabae0.chunk.js"
+  ]
+}
