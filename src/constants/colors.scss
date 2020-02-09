@@ -5,6 +5,8 @@ $dingley:               #68733F;
 $cream:                 #fffed1;
 $gordons-green:         #080803;
 $ronchi:                #f0d555;
+$fuscous-gray:          #4c4d4a;
+$concrete:              #f3f3f3;
 
 // ProgressBar component
 $prgress-bar-border:            $cream;
@@ -15,3 +17,7 @@ $prgress-bar-load:              linear-gradient($sycamore, $dingley);
 $button-border:                 $gordons-green;
 $button-background:             $ronchi;
 $button-shadow:                 $sycamore;
+
+// Spinner component
+$spinner-round:                 $concrete;
+$spinner-spin:                  $fuscous-gray;

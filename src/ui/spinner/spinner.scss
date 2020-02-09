@@ -1,0 +1,19 @@
+@import '../../constants/colors.scss';
+
+.spinner {
+  box-sizing: border-box;
+  position: absolute;
+  left: calc(50% - 8rem);
+  top: calc(50% - 8rem);
+  border: 1.6rem solid $spinner-round;
+  border-top: 1.6rem solid $spinner-spin;
+  border-radius: 50%;
+  width: 16rem;
+  height: 16rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
