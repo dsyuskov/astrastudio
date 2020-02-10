@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/astrastudio/static/css/main.f90b054f.chunk.css",
-    "main.js": "/astrastudio/static/js/main.9aaa1dc3.chunk.js",
-    "main.js.map": "/astrastudio/static/js/main.9aaa1dc3.chunk.js.map",
+    "main.css": "/astrastudio/static/css/main.385f9965.chunk.css",
+    "main.js": "/astrastudio/static/js/main.bb04f01f.chunk.js",
+    "main.js.map": "/astrastudio/static/js/main.bb04f01f.chunk.js.map",
     "runtime-main.js": "/astrastudio/static/js/runtime-main.09b277dd.js",
     "runtime-main.js.map": "/astrastudio/static/js/runtime-main.09b277dd.js.map",
     "static/js/2.1d366fd9.chunk.js": "/astrastudio/static/js/2.1d366fd9.chunk.js",
     "static/js/2.1d366fd9.chunk.js.map": "/astrastudio/static/js/2.1d366fd9.chunk.js.map",
     "index.html": "/astrastudio/index.html",
-    "precache-manifest.378b478a30ae0fa2695046272db90009.js": "/astrastudio/precache-manifest.378b478a30ae0fa2695046272db90009.js",
+    "precache-manifest.030986c67dc8daa97bf3e3f932c7416d.js": "/astrastudio/precache-manifest.030986c67dc8daa97bf3e3f932c7416d.js",
     "service-worker.js": "/astrastudio/service-worker.js",
-    "static/css/main.f90b054f.chunk.css.map": "/astrastudio/static/css/main.f90b054f.chunk.css.map",
+    "static/css/main.385f9965.chunk.css.map": "/astrastudio/static/css/main.385f9965.chunk.css.map",
     "static/js/2.1d366fd9.chunk.js.LICENSE.txt": "/astrastudio/static/js/2.1d366fd9.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/astrastudio/static/media/side-bg.324c7fbc.jpg",
     "static/media/task-kings.png": "/astrastudio/static/media/task-kings.159c96d7.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.09b277dd.js",
     "static/js/2.1d366fd9.chunk.js",
-    "static/css/main.f90b054f.chunk.css",
-    "static/js/main.9aaa1dc3.chunk.js"
+    "static/css/main.385f9965.chunk.css",
+    "static/js/main.bb04f01f.chunk.js"
   ]
 }
