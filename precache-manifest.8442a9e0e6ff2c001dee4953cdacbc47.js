@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74a02a982640f3eb1a7928e9c5e7fbe2",
+    "revision": "8ffb844326d6a4061e58c4fa3e74ae27",
     "url": "/astrastudio/index.html"
   },
   {
