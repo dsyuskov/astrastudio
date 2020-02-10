@@ -1,0 +1,24 @@
+@import '../../constants/colors.scss';
+
+.timer {
+  position: absolute;
+  display: flex;
+  width: 25rem;
+  padding-bottom: 3.5rem;
+  color: $timer-font;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 3rem;
+
+  &__column {
+    text-align: center;
+  }
+
+  &__sign {
+    display: block;
+    min-width: 4rem;
+    font-size: 1.1rem;
+    line-height: 0.8rem;
+  }
+}
