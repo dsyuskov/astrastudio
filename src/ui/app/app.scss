@@ -1,4 +1,4 @@
-@import './constants/colors.scss';
+@import '../../constants/colors.scss';
 
 html {
   font-size: 10px;
@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   position: relative;
-  background: url("./assets/side-bg.jpg") center center no-repeat;
+  background: url("./side-bg.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -18,7 +18,7 @@ body {
   margin-right: auto;
   width: 1062px;
   height: 100vh;
-  background: url("./assets/background-screen.png") no-repeat center;
+  background: url("./background-screen.png") no-repeat center;
   background-size: 100% 100%;
 
   @media (max-width: 1062px) {
@@ -36,7 +36,7 @@ body {
   width: 100%;
   height: 21rem;
   z-index: 2;
-  background: url("./assets/header.png") no-repeat 55%;
+  background: url("./header.png") no-repeat 55%;
   background-size: contain;
 }
 
@@ -52,10 +52,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   top: 20%;
-  background: url("./assets/background.png") no-repeat center center;
+  background: url("./background.png") no-repeat center center;
   background-size: 100% 100%;
 
   @media (max-width: 1062px) {
-    width: 100%;
+    width: 90%;
   }
 }

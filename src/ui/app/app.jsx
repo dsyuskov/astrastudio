@@ -1,9 +1,9 @@
 import React from 'react';
 import './app.scss';
 
-import Task from './ui/task/task';
-import Timer from './ui/timer/timer';
-import Spinner from './ui/spinner/spinner';
+import Task from '../task/task';
+import Timer from '../timer/timer';
+import Spinner from '../spinner/spinner';
 
 export default class App extends React.Component {
   constructor(props) {
