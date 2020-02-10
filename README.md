@@ -1,6 +1,6 @@
 # Тестовое задание для компании AstraStudio.
 
-Demo https://dsyuskov.github.io/astrastudio
+Демо https://dsyuskov.github.io/astrastudio
 
 Реализовать Singe Page Application по заданному макету, отображающее внутреннее UI окно праздничной акции с заданиями по JSON данным получаемым с сервера. 
 
